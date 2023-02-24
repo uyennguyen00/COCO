@@ -1,0 +1,165 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    min-width: 414px;
+    
+   
+    
+}
+
+/* Header , logo */
+#logo{
+    color: darkblue;
+    
+} 
+
+#header{
+    text-align: center;
+    background: white;
+    line-height: 65px;
+    font-family: 'Manrope', sans-serif;
+    color: darkblue;
+    font-size: 200%;
+    
+    
+    
+}
+#header a{
+    text-decoration: none;
+    
+}
+
+
+/* Navigator bar */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:#c6c99a;
+    width: 100%;
+    min-height: 70px;
+    white-space: normal;
+    
+}
+
+#navbar li{
+    display: inline-block;
+    
+    
+}
+
+
+#navbar a{
+    color: var (--text-color);
+    font-size:1rem;
+    font-weight:300;
+   
+    margin: 0px 5px;
+}
+
+#navbar li{
+    
+    display: inline;
+}
+
+#navbar a:hover{
+    background-color:#e3e2f2;
+    color:#000;
+
+}
+
+
+/* banner */
+#banner{
+    background-color:white;
+}
+#banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Main Content */
+
+#wrapper{
+    width:100%;
+    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+#content{
+
+    
+    background-color:white;
+    border-radius: 2px;
+    border-style:ridge ;
+    margin-bottom: 30px;
+    margin-right:10px;
+    margin-left: 10px;
+    
+}
+#content p {
+ 
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    
+}
+
+
+/* Footer */
+#footer p{
+
+    text-align: center;
+   
+  
+}
+
+#footer{
+    text-align: center;
+    background:#c6c99a;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: auto;
+    
+   
+
+}
+
+
+#footer li{
+    text-decoration-color: white;
+    
+}
+
+@media only screen and (max-width:414px){
+    #navbar {
+        width: 100%;
+        
+    }
+}
+
+li{
+    list-style: none;
+}
