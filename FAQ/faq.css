@@ -9,6 +9,7 @@ body{
     display: flex;
     min-width: 414px;
     background: whitesmoke;
+    
    
     
 }
@@ -80,6 +81,7 @@ body{
 
 
 
+
 /* Main Content */
 
 #wrapper{
@@ -91,28 +93,7 @@ body{
 
 }
 
-#content{
-
-    
-    background-color:white;
-    border-radius: 2px;
-    border-style:ridge ;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-right:10px;
-    margin-left: 10px;
-    
-}
-#content h2, h3 {
- 
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-   
-    
-}
-#content p {
+#content p , #content1 p{
  
     text-align: justify;
     margin-top: 30px;
@@ -122,21 +103,38 @@ body{
    
     
 }
-
-
-
-/* Galery */
-#galery{
-    background-color:whitesmoke;
+/*pricelist*/
+#list {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  #list img {
+    align-items: center;
+    width: 70%;
+    height: 30%;
+    padding: 15px;
+  }
+#list li,h2{
+    text-align: center;
+    padding: 10px;
 }
-#galery img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+  /* Clear floats after the columns */
+
+
+ 
+  #list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width:600px) {
+    #list {
+      width: 100%;
+    }
+  }
 
 /* Footer */
 #footer p{

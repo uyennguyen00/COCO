@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     display: flex;
     min-width: 414px;
+    background: whitesmoke;
     
    
     
@@ -21,7 +22,7 @@ body{
 
 #header{
     text-align: center;
-    background: white;
+    background: whitesmoke;
     line-height: 65px;
     font-family: 'Manrope', sans-serif;
     color: darkblue;
@@ -43,7 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:#c6c99a;
+    background:rgb(221, 215, 215);
     width: 100%;
     min-height: 70px;
     white-space: normal;
@@ -61,10 +62,11 @@ body{
     color: var (--text-color);
     font-size:1rem;
     font-weight:300;
-   
+   text-decoration: none;
     margin: 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a0eda;
 }
-
 #navbar li{
     
     display: inline;
@@ -90,17 +92,6 @@ body{
 
 }
 
-#content{
-
-    
-    background-color:white;
-    border-radius: 2px;
-    border-style:ridge ;
-    margin-bottom: 30px;
-    margin-right:10px;
-    margin-left: 10px;
-    
-}
 #content p {
  
     text-align: justify;
@@ -123,7 +114,10 @@ body{
     height: 30%;
     padding: 15px;
   }
-
+#list li,h2{
+    text-align: center;
+    padding: 10px;
+}
   /* Clear floats after the columns */
 
 
@@ -151,7 +145,7 @@ body{
 
 #footer{
     text-align: center;
-    background:#c6c99a;
+    background:rgb(221, 215, 215);
     
     display: flex;
     justify-content: center;

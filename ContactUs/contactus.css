@@ -61,10 +61,8 @@ body{
     color: var (--text-color);
     font-size:1rem;
     font-weight:300;
-   text-decoration: none;
+   
     margin: 0px 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #3a0eda;
 }
 
 #navbar li{
@@ -97,21 +95,13 @@ body{
     background-color:white;
     border-radius: 2px;
     border-style:ridge ;
-    margin-bottom: 30px;
+    margin-bottom: 165px;
     margin-top: 30px;
     margin-right:10px;
     margin-left: 10px;
     
 }
-#content h2, h3 {
- 
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-   
-    
-}
+
 #content p {
  
     text-align: justify;
