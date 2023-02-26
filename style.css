@@ -37,13 +37,12 @@ body{
 
 
 /* Navigator bar */
-
 #navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:#c6c99a;
+    background:rgb(221, 215, 215);
     width: 100%;
     min-height: 70px;
     white-space: normal;
@@ -61,9 +60,12 @@ body{
     color: var (--text-color);
     font-size:1rem;
     font-weight:300;
-   
+   text-decoration: none;
     margin: 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a0eda;
 }
+
 
 #navbar li{
     
