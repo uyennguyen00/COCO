@@ -91,6 +91,18 @@ body{
 
 }
 
+#content{
+
+    
+   
+    margin-bottom: 410px;
+    margin-top: 100px;
+    margin-right:10px;
+    margin-left: 10px;
+    min-height: 250px;
+    
+}
+
 #content p {
  
     text-align: justify;
@@ -103,14 +115,14 @@ body{
 }
 #content p2{
     font-family: monospace;
-    
+    text-decoration: blue;
 }
 /*pricelist*/
 #info , #message{
     float: left;
     width: 50%;
     padding: 15px;
-    min-height: 300px;
+    
   }
   #info p{
     align-items: left;
@@ -120,7 +132,11 @@ body{
     
   }
   #message{
-    background-color: white;
+    
+    background-color:white;
+    padding-top: 120px;
+    
+  
   }
 
   /* Clear floats after the columns */
