@@ -65,7 +65,7 @@ body{
    text-decoration: none;
     margin: 0px 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #3a0eda;
+    color: darkblue;
 }
 
 #navbar li{
@@ -159,6 +159,9 @@ body{
 
 }
 
+#message button{
+    margin-top: 10px;
+}
 
 #footer li{
     text-decoration-color: white;
