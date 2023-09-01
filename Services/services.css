@@ -44,7 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:rgb(221, 215, 215);
+    background:pink;
     width: 100%;
     min-height: 70px;
     white-space: normal;
@@ -65,7 +65,7 @@ body{
    text-decoration: none;
     margin: 0px 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:darkblue;
+    color:black;
 }
 #navbar li{
     
