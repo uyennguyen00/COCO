@@ -42,15 +42,17 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:pink;
+    background:rgb(69, 69, 162);
     width: 100%;
     min-height: 70px;
     white-space: normal;
+    color: rgb(191, 194, 232);
     
 }
 
 #navbar li{
     display: inline-block;
+    color: rgb(191, 194, 232);
     
     
 }
@@ -63,7 +65,7 @@ body{
    text-decoration: none;
     margin: 0px 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(191, 194, 232);
 }
 
 
@@ -102,6 +104,7 @@ body{
 }
 .right-column {
     width: 50%;
+    
     padding: 3%;
    float: right;
     background: white
@@ -119,7 +122,7 @@ body{
 
 #footer{
     text-align: center;
-    background:pink;
+    background:rgb(69, 69, 162);
     
     display: flex;
     justify-content: center;
@@ -134,7 +137,7 @@ body{
 
 
 #footer li{
-    text-decoration-color: white;
+   color: rgb(191, 194, 232);
     
 }
 

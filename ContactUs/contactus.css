@@ -43,7 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background:pink;
+    background:rgb(69, 69, 162);
     width: 100%;
     min-height: 70px;
     white-space: normal;
@@ -64,7 +64,7 @@ body{
    text-decoration: none;
     margin: 0px 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(191, 194, 232);
 }
 
 #navbar li{
@@ -175,7 +175,7 @@ body{
 
 #footer{
     text-align: center;
-    background:pink;
+    background:rgb(69, 69, 162);
     
     display: flex;
     justify-content: center;
@@ -190,7 +190,7 @@ body{
 
 
 #footer li{
-    text-decoration-color: white;
+    color: rgb(191, 194, 232);
     
 }
 
